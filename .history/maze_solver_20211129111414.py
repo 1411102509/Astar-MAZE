@@ -98,7 +98,7 @@ class Note():
     def print(self):
         print("F = ",self.F,"，G = ",self.G,
               "，H = ",self.H,"，parentNote = ",self.parentNote)
-
+# 
 # A*算法寻路
 def solve_maze(MAZE,ENTRANCE,EXIT,callback):
     #初始化OPEN表、CLOSED表和代价函数
